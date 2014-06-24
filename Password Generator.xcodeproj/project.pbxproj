@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28BB499D1945D4E8003D9E50 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BB499C1945D4E8003D9E50 /* PasswordGenerator.swift */; };
 		28CAE5801944775D00AC4E62 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAE57F1944775D00AC4E62 /* main.swift */; };
 		28CAE5821944775D00AC4E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAE5811944775D00AC4E62 /* AppDelegate.swift */; };
 		28CAE5841944775D00AC4E62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CAE5831944775D00AC4E62 /* Images.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28BB499C1945D4E8003D9E50 /* PasswordGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 		28CAE57A1944775D00AC4E62 /* Password Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CAE57E1944775D00AC4E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28CAE57F1944775D00AC4E62 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				28CAE5811944775D00AC4E62 /* AppDelegate.swift */,
+				28BB499C1945D4E8003D9E50 /* PasswordGenerator.swift */,
 				28CAE5831944775D00AC4E62 /* Images.xcassets */,
 				28CAE5851944775D00AC4E62 /* MainMenu.xib */,
 				28CAE57D1944775D00AC4E62 /* Supporting Files */,
@@ -210,6 +213,7 @@
 			files = (
 				28CAE5821944775D00AC4E62 /* AppDelegate.swift in Sources */,
 				28CAE5801944775D00AC4E62 /* main.swift in Sources */,
+				28BB499D1945D4E8003D9E50 /* PasswordGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +403,7 @@
 				28CAE5981944775D00AC4E62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28CAE5991944775D00AC4E62 /* Build configuration list for PBXNativeTarget "Password GeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +412,7 @@
 				28CAE59B1944775D00AC4E62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
