@@ -14,9 +14,9 @@ extension Array {
     }
     
     // Could contain duplicates
-    func randomItems(total: Int) -> T[] {
-        var result: T[] = []
-        for i in (0..total).by(1) {
+    func randomItems(total: Int) -> [T] {
+        var result: [T] = []
+        for _ in (0..<total) {
             if let item = randomItem() {
                 result += [item]
             }
@@ -24,9 +24,9 @@ extension Array {
         return result
     }
     
-    func shuffleItems() -> T[] {
+    func shuffleItems() -> [T] {
         var newArray = self
-        for i in (0..newArray.count) {
+        for i in (0..<newArray.count) {
             let j = Int(arc4random()) % newArray.count
             newArray.insert(newArray.removeAtIndex(j), atIndex: i)
         }
@@ -36,10 +36,10 @@ extension Array {
 
 extension String {
     func split(bySeparator: String) -> Array<String> {
-        if countElements(bySeparator) < 1 {
-            var items: String[] = []
-            for c in self {
-                items.append(""+c)
+        if bySeparator.characters.count < 1 {
+            var items: [String] = []
+            for c in self.characters {
+                items.append(String(c))
             }
             return items
         }
@@ -59,7 +59,7 @@ class PasswordGenerator {
     var symbols   = 5
     
     func generate() -> String {
-        var password: String[] = []
+        var password: [String] = []
         password += lowercaseSet.randomItems(lowercase)
         password += uppercaseSet.randomItems(uppercase)
         password += numberSet.randomItems(numbers)

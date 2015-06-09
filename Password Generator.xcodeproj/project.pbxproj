@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		28BB499D1945D4E8003D9E50 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BB499C1945D4E8003D9E50 /* PasswordGenerator.swift */; };
-		28CAE5801944775D00AC4E62 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAE57F1944775D00AC4E62 /* main.swift */; };
 		28CAE5821944775D00AC4E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAE5811944775D00AC4E62 /* AppDelegate.swift */; };
 		28CAE5841944775D00AC4E62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CAE5831944775D00AC4E62 /* Images.xcassets */; };
 		28CAE5871944775D00AC4E62 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CAE5851944775D00AC4E62 /* MainMenu.xib */; };
@@ -29,7 +28,6 @@
 		28BB499C1945D4E8003D9E50 /* PasswordGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 		28CAE57A1944775D00AC4E62 /* Password Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CAE57E1944775D00AC4E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28CAE57F1944775D00AC4E62 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		28CAE5811944775D00AC4E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28CAE5831944775D00AC4E62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28CAE5861944775D00AC4E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				28CAE57E1944775D00AC4E62 /* Info.plist */,
-				28CAE57F1944775D00AC4E62 /* main.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,6 +153,7 @@
 		28CAE5721944775D00AC4E62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Neil Ang";
 				TargetAttributes = {
@@ -212,7 +210,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28CAE5821944775D00AC4E62 /* AppDelegate.swift in Sources */,
-				28CAE5801944775D00AC4E62 /* main.swift in Sources */,
 				28BB499D1945D4E8003D9E50 /* PasswordGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
